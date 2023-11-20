@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">JavaProject</string>
+
+    <!-- 예 / 아니오 -> 홀수 번 : 예가 많으면, P(개인) / 짝수 번 : 예가 많으면, G(그룹) -->
+    <string name="section1_Q1">1. 혼자서 운동을 하는 것을 더 즐기시는 편인가요?</string>
+    <string name="section1_Q2">2. 다른 사람들과 함께 운동하면 더 즐겁고 활기찬가요? </string>
+    <string name="section1_Q3">3. 운동 중에 개인적인 공간과 평화를 유지하는 것이 중요한가요?</string>
+    <string name="section1_Q4">4. 다른 사람들과 함께 운동하는 것이 더 즐겁고 동기부여에 도움이 되는가요?</string>
+    <string name="section1_Q5">5. 개인적인 목표와 성취감이 주 동기인가요?</string>
+    <string name="section1_Q6">6. 타인과의 경쟁이나 협동이 동기부여의 주요 요소인가요?</string>
+
+
+    <!-- A 타입 > B 타입 => I(실내) / A 타입 < B 타입 => O(실외) -->
+    <string name="section2_Q1">1. 운동을 할 때 주로 어디에서 활동하시나요?</string>
+    <string name="section2_Q2">2. 운동환경으로 어떤 것을 선호하나요?</string>
+    <string name="section2_Q3">3. 날씨나 기후에 얼마나 민감한 편인가요?</string>
+    <string name="section2_Q1_A1">실내</string>
+    <string name="section2_Q1_B1">실외</string>
+    <string name="section2_Q2_A1">편안한 실내 공간</string>
+    <string name="section2_Q2_A2">기기를 활용한 운동</string>
+    <string name="section2_Q2_B1">자연의 풍경</string>
+    <string name="section2_Q2_B2">신선한 공기</string>
+    <string name="section2_Q2_B3">변화하는 환경</string>
+    <string name="section2_Q3_A1">일정한 온도를 선호</string>
+    <string name="section2_Q3_B1">다양한 날씨에 적응하며 햇볕, 바람을 즐기는 것을 선호</string>
+
+    <!-- A 타입 > B 타입 => C(유산소) / A 타입 < B 타입 => A(무산소) -->
+    <string name="section3_Q1">1. 운동을 할 때 주로 어떤 종류의 활동을 선호하시나요?</string>
+    <string name="section3_Q2">2. 운동 목표 중 어떤 것이 중요하다고 생각하나요?</string>
+    <string name="section3_Q3">3. 운동 중에 땀을 흘리는 것을 어떻게 받아들이나요?</string>
+    <string name="section3_Q1_A1">달리기</string>
+    <string name="section3_Q1_A2">수영</string>
+    <string name="section3_Q1_A3">사이클링</string>
+    <string name="section3_Q1_B1">웨이트 트레이닝</string>
+    <string name="section3_Q1_B2">HIIT(인터벌 트레이닝)</string>
+    <string name="section3_Q2_A1">심폐 지구력 향상</string>
+    <string name="section3_Q2_A2">체지방 감소</string>
+    <string name="section3_Q2_B1">근육 강화</string>
+    <string name="section3_Q2_B2">대사 촉진</string>
+    <string name="section3_Q3_A1">땀을 흘리며 지속적인 운동이 몸에 더 좋음</string>
+    <string name="section3_Q3_B1">땀을 흘리며 몸을 더 힘들게 사용하는 것이 몸에 더 좋음</string>
+
+    <!-- 점수가 높은 순 B(Bronze) S(Silver) G(Gold) P(Platinum) -->
+    <string name="section5_Q1">1. 운동을 시작한지 얼마나 되었나요?</string>
+    <string name="section5_Q2">2. 주당 운동 빈도는 어떻게 되나요?</string>
+    <string name="section5_Q3">3. 3대 운동(데드리프트, 스쿼트, 벤치프레스) 중량의 합은 무엇인가요?</string>
+    <string name="section5_Q4">4. 운동 관련 대회에서 수상 경력이 있나요?</string>
+    <string name="section5_Q5">5. 동을 가르치는 직업을 가지고 계신가요?</string>
+    <string name="section5_Q1_B">6개월 이내</string>
+    <string name="section5_Q1_S">6개월에서 2년 사이</string>
+    <string name="section5_Q1_G">2년에서 5년 사이</string>
+    <string name="section5_Q1_P">5년 이상</string>
+    <string name="section5_Q2_B">1 ~ 2회</string>
+    <string name="section5_Q2_S">3 ~ 4회</string>
+    <string name="section5_Q2_G">5회 이상</string>
+    <string name="section5_Q2_P">매일</string>
+    <string name="section5_Q3_B">80kg 이하</string>
+    <string name="section5_Q3_S">80 ~ 150kg</string>
+    <string name="section5_Q3_G">150 ~ 250kg</string>
+    <string name="section5_Q3_P">250kg 이상</string>
+
+
+    <string name="yes">예</string>
+    <string name="no">아니오</string>
+</resources>
