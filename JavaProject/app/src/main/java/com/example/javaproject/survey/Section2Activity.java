@@ -63,7 +63,7 @@ public class Section2Activity extends AppCompatActivity {
                 countO.set(countO.get() + 1);
             }
 
-            Intent intent = new Intent(this, Section2Activity.class);
+            Intent intent = new Intent(this, Section3Activity.class);
             intent.putExtra("Section1", this.getIntent().getStringExtra("Section1"));
             if (countI.get() > countO.get()) {
                 intent.putExtra("Section2", "I");

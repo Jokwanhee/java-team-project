@@ -74,7 +74,7 @@ public class Section3Activity extends AppCompatActivity {
                 countA.set(countA.get() + 1);
             }
 
-            Intent intent = new Intent(this, Section3Activity.class);
+            Intent intent = new Intent(this, Section4Activity.class);
             intent.putExtra("Section1", this.getIntent().getStringExtra("Section1"));
             intent.putExtra("Section2", this.getIntent().getStringExtra("Section2"));
             if (countC.get() > countA.get()) {
