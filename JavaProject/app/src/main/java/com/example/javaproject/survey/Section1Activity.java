@@ -20,7 +20,7 @@ public class Section1Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_survey);
+        setContentView(R.layout.tablet_section1);
         CheckBox question1_answerA = findViewById(R.id.cb1_s1_q1);
         CheckBox question2_answerA = findViewById(R.id.cb1_s1_q2);
         CheckBox question3_answerA = findViewById(R.id.cb1_s1_q3);

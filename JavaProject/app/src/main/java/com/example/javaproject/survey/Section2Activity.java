@@ -17,7 +17,7 @@ public class Section2Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_section2);
+        setContentView(R.layout.tablet_section2);
         Log.e("로그", this.getIntent().getStringExtra("Section1"));
 
         CheckBox question1_answerA = findViewById(R.id.cb1_s2_q1_a);

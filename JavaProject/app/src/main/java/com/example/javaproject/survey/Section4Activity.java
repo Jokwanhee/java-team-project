@@ -9,6 +9,7 @@ import android.widget.CheckBox;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.javaproject.R;
+import com.example.javaproject.ResultActivity;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -19,7 +20,7 @@ public class Section4Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_section4);
+        setContentView(R.layout.tablet_section4);
         Log.e("로그", this.getIntent().getStringExtra("Section1"));
         Log.e("로그", this.getIntent().getStringExtra("Section2"));
         Log.e("로그", this.getIntent().getStringExtra("Section3"));
@@ -98,22 +99,22 @@ public class Section4Activity extends AppCompatActivity {
                 userCount.set(userCount.get() + 2);
             }
 
-            Intent intent = new Intent(this, Section4Activity.class);
+            Intent intent = new Intent(this, ResultActivity.class);
             intent.putExtra("Section1", this.getIntent().getStringExtra("Section1"));
             intent.putExtra("Section2", this.getIntent().getStringExtra("Section2"));
             intent.putExtra("Section3", this.getIntent().getStringExtra("Section3"));
 
             if (userCount.get() >= 5 || userCount.get() <= 7) {
-                intent.putExtra("Section2", "B");
+                intent.putExtra("Section4", "B");
                 startActivity(intent);
             } else if (userCount.get() >= 8 || userCount.get() <= 10){
-                intent.putExtra("Section2", "S");
+                intent.putExtra("Section4", "S");
                 startActivity(intent);
             } else if (userCount.get() >= 11 || userCount.get() <= 13){
-                intent.putExtra("Section2", "G");
+                intent.putExtra("Section4", "G");
                 startActivity(intent);
             } else if (userCount.get() >= 14){
-                intent.putExtra("Section2", "P");
+                intent.putExtra("Section4", "P");
                 startActivity(intent);
             }
         });

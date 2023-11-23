@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".survey.Section3Activity">
+
+
+    <TextView
+        android:id="@+id/tv_s3_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18sp"
+        android:gravity="center"
+        android:text="나의 몸BTI 검사지\nSection 3"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_s3_q1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/section3_Q1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_s3_title" />
+
+    <CheckBox
+        android:id="@+id/cb1_s3_q1_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="@string/section3_Q1_A1"
+        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintEnd_toStartOf="@id/cb2_s3_q1_a"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_s3_q1" />
+
+    <CheckBox
+        android:id="@+id/cb2_s3_q1_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="@string/section3_Q1_A2"
+        app:layout_constraintEnd_toStartOf="@id/cb3_s3_q1_a"
+        app:layout_constraintStart_toEndOf="@id/cb1_s3_q1_a"
+        app:layout_constraintTop_toTopOf="@id/cb1_s3_q1_a" />
+
+    <CheckBox
+        android:id="@+id/cb3_s3_q1_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="@string/section3_Q1_A3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/cb2_s3_q1_a"
+        app:layout_constraintTop_toTopOf="@id/cb1_s3_q1_a" />
+
+    <CheckBox
+        android:id="@+id/cb4_s3_q1_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="@string/section3_Q1_B1"
+        app:layout_constraintEnd_toStartOf="@id/cb5_s3_q1_b"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cb3_s3_q1_a" />
+
+    <CheckBox
+        android:id="@+id/cb5_s3_q1_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="@string/section3_Q1_B2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/cb4_s3_q1_b"
+        app:layout_constraintTop_toTopOf="@id/cb4_s3_q1_b" />
+
+    <TextView
+        android:id="@+id/tv_s3_q2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/section3_Q2"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cb5_s3_q1_b" />
+
+    <CheckBox
+        android:id="@+id/cb1_s3_q2_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        android:text="@string/section3_Q2_A1"
+        app:layout_constraintEnd_toStartOf="@id/cb2_s3_q2_a"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_s3_q2" />
+
+    <CheckBox
+        android:id="@+id/cb2_s3_q2_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="@string/section3_Q2_A2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/cb1_s3_q2_a"
+        app:layout_constraintTop_toTopOf="@id/cb1_s3_q2_a" />
+
+
+    <CheckBox
+        android:id="@+id/cb3_s3_q2_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="@string/section3_Q2_B1"
+        app:layout_constraintEnd_toStartOf="@id/cb4_s3_q2_b"
+        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cb1_s3_q2_a" />
+
+    <CheckBox
+        android:id="@+id/cb4_s3_q2_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="@string/section3_Q2_B2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/cb3_s3_q2_b"
+        app:layout_constraintTop_toTopOf="@id/cb3_s3_q2_b" />
+
+
+    <TextView
+        android:id="@+id/tv_s3_q3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/section3_Q3"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cb4_s3_q2_b" />
+
+    <CheckBox
+        android:id="@+id/cb1_s3_q3_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/section3_Q3_A1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_s3_q3" />
+
+    <CheckBox
+        android:id="@+id/cb2_s3_q3_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/section3_Q3_B1"
+        app:layout_constraintStart_toStartOf="@id/cb1_s3_q3_a"
+        app:layout_constraintTop_toBottomOf="@id/cb1_s3_q3_a" />
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:text="다음 페이지"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cb2_s3_q3_b" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

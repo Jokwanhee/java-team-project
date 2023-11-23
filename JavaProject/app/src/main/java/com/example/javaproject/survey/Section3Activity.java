@@ -17,7 +17,7 @@ public class Section3Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_section3);
+        setContentView(R.layout.tablet_section3);
         Log.e("로그", this.getIntent().getStringExtra("Section1"));
         Log.e("로그", this.getIntent().getStringExtra("Section2"));
 
@@ -78,10 +78,10 @@ public class Section3Activity extends AppCompatActivity {
             intent.putExtra("Section1", this.getIntent().getStringExtra("Section1"));
             intent.putExtra("Section2", this.getIntent().getStringExtra("Section2"));
             if (countC.get() > countA.get()) {
-                intent.putExtra("Section2", "C");
+                intent.putExtra("Section3", "C");
                 startActivity(intent);
             } else {
-                intent.putExtra("Section2", "A");
+                intent.putExtra("Section3", "A");
                 startActivity(intent);
             }
 

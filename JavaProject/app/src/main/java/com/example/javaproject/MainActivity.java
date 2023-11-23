@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.main_tablet_template);
 
         FrameLayout sideContainer = findViewById(R.id.standard_side_sheet);
         ConstraintLayout loginContainer = findViewById(R.id.login_container);
